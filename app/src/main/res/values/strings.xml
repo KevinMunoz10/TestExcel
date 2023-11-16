@@ -1,0 +1,20 @@
+<resources>
+    <!-- Nombres de la Aplicación -->
+    <string name="app_name">TestExcel</string>
+
+    <!-- Títulos y Descripciones Generales -->
+    <string name="Titulo">SISTEMA DE INSPECCIÓN Y CALIFICACIÓN DE PATOLOGÍAS PARA PUENTES Y EDIFICACIONES</string>
+    <string name="Descripcion">Bienvenido a SICPE! A través de esta herramienta podrás analizar, calificar y conocer el estado
+        cualquier tipo de estructura y sus elementos gracias a un avanzado programa que calcula
+        numéricamente todas las variables para permitirte dimensionar de forma fácil y rápida todo aspecto
+        de funcionamiento y calidad de las diferentes estructuras. Adicionalmente, podrás generar un informe
+        sobre el estado general de tu estructura de forma automática permitiéndote orientar tu trabajo de
+        forma efectiva.</string>
+
+    <!-- Normas de Uso -->
+    <string name="Norma1">1. El primer paso para utilizar esta herramienta es seleccionar qué tipo de estructura deseas evaluar, a través de los botones que encuentras en la pestaña Inicio</string>
+    <string name="Norma2">2. Automáticamente, el sistema se dirigirá a la Hoja de Vida de la estructura que seleccionaste. Este es el primer documento que deberás d
+        información que allí se te solicita.
+        Nota 1: Ten presente que aquellas casillas y/o botones que tienen tonalidad de color verde, son elementos dinámicos con los cuales podrás interactuar, tales como:
+        Nota 1.1. Si su puente se encuentra ubicado en la ciudad de Bogotá, puede buscar los datos necesarios en el siguiente link:</string>
+</resources>

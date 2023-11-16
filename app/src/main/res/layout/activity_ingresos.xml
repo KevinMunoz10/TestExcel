@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingresos">
+
+    <!-- Boton para Regresar -->
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Texto Sistema de Inspección -->
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="80dp"/>
+
+    <!-- Boton Presentacion -->
+
+    <Button
+        android:id="@+id/BtnPresentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presentación"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Boton Manual de Usuario -->
+
+    <Button
+        android:id="@+id/BtnManualUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual De Usuario"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Texto de seleccion -->
+
+    <!-- Boton Puente Concreto -->
+
+    <TextView
+        android:id="@+id/textViewSelección"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="230dp"
+        android:text="Selecciona Tu Estructura" />
+
+    <Button
+        android:id="@+id/BtnPuenteConcreto"
+        android:layout_width="133dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="331dp"
+        android:text="Puente En Concreto" />
+
+    <!-- Boton Edificacion Concreto -->
+
+    <Button
+        android:id="@+id/BtnEdificacionConcreto"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="16dp"
+        android:text="Edificacion En Concreto" />
+
+    <!-- Boton Puente Acero -->
+
+    <Button
+        android:id="@+id/BtnPuenteAcero"
+        android:layout_width="135dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="443dp"
+        android:text="Puente En Acero" />
+
+    <!-- Boton Edificacion Acero -->
+
+    <Button
+        android:id="@+id/BtnEdificacionAcero"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="16dp"
+        android:text="Edificacion En Acero" />
+
+    <!-- Boton Puente Madera -->
+
+    <Button
+        android:id="@+id/BtnPuenteMadera"
+        android:layout_width="135dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="560dp"
+        android:text="Puente En Madera" />
+
+
+    <!-- Boton Edificacion Madera -->
+
+    <Button
+        android:id="@+id/BtnEdificacionMadera"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="19dp"
+        android:text="Edificacion En Madera" />
+
+    <!-- Pruebas -->
+
+    <TextView
+        android:id="@+id/textViewTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esto Es Una Prueba No Es Final"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:layout_marginStart="80dp"/>
+
+</RelativeLayout>
